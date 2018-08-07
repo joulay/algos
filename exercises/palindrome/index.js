@@ -12,9 +12,7 @@ function palindrome(str) {
     for (let l of str) {
         checker = l + checker;
     }
-    if (str === checker) {
-        return true;
-    }
+    return str === checker;
 
 
 }
