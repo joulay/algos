@@ -42,6 +42,8 @@ function anagrams(stringA, stringB) {
     if (clean(stringA) === clean(stringB)) {
         return true;
     }
+
+    //return clean(stringA) === clean(stringB);
 }
 
 function clean(str) {
