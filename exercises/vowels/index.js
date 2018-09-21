@@ -18,6 +18,13 @@ function vowels(str) {
     }
     return count;
 }
-console.log(vowels('why do you ask?'));
+// console.log(vowels('why do you ask?'));
 
 module.exports = vowels;
+
+function vowels(str) {
+    const matches = str.match(/[aeiou]/gi); 
+    //g = dont stop at first match we find inside string
+    //i insensitive, case insensitive
+    return matches ? matches.length : 0;
+}
