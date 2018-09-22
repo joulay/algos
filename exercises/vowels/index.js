@@ -18,7 +18,6 @@ function vowels(str) {
     }
     return count;
 }
-// console.log(vowels('why do you ask?'));
 
 module.exports = vowels;
 
