@@ -43,7 +43,6 @@ function anagrams(stringA, stringB) {
         return true;
     }
 
-    //return clean(stringA) === clean(stringB);
 }
 
 function clean(str) {
@@ -52,3 +51,10 @@ function clean(str) {
 
 
 module.exports = anagrams;
+
+
+
+
+
+
+
